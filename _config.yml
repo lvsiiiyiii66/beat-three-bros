@@ -1,0 +1,20 @@
+# GitHub Pages 配置文件
+# 这个文件用于配置 GitHub Pages 的构建和部署设置
+
+# 使用 Jekyll 的最小化配置
+theme: null
+plugins: []
+markdown: kramdown
+
+# 站点信息
+title: 暴打三兄弟
+description: 真实办公室版打击游戏
+url: https://lvsiiiyiii66.github.io/beat-three-bros/
+
+# 排除不需要的文件
+exclude:
+  - .gitignore
+  - .github/
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
